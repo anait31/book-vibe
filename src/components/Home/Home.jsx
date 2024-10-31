@@ -1,8 +1,11 @@
+import Books from "../Books/Books";
+import Hero from "../Hero/Hero";
 
 const Home = () => {
     return (
-        <div>
-            <h3>This is home page</h3>
+        <div className="max-w-7xl mx-auto">
+            <Hero></Hero>
+            <Books></Books>
         </div>
     );
 };
